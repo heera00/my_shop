@@ -1,0 +1,79 @@
+.page {
+  width: min(960px, 100% - 2rem);
+  margin: 2rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #fff4e0, #ffe4d6);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.intro {
+  max-width: 42ch;
+  margin: 0 auto 1.2rem;
+}
+
+.cta {
+  display: inline-block;
+  background: #8b4513;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu h2,
+.visit h2 {
+  margin-bottom: 1rem;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.menu-card {
+  background: #fff;
+  border: 1px solid #f1e4d5;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.menu-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.menu-card p {
+  margin: 0;
+}
+
+.menu-card span {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-weight: 700;
+  color: #8b4513;
+}
+
+.visit {
+  background: #fffaf5;
+  border: 1px solid #f1e4d5;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+
+.visit p {
+  margin: 0.35rem 0;
+}
